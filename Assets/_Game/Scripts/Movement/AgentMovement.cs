@@ -24,6 +24,7 @@ namespace Kaynir.TDSTest.Movement
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
+            lookAngle = transform.eulerAngles.z;
         }
 
         private void FixedUpdate()
