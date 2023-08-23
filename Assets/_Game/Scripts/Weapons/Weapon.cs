@@ -6,11 +6,11 @@ namespace Kaynir.TDSTest.Weapons
 {
     public class Weapon : MonoBehaviour
     {
-        // базовый класс, организующий модульные оружия на основе композиции и стратегий
-        // например, IAttackHandler, IReloadHandler и тому подобное
-        // позволяет создавать как ближнее, так и дальнее оружие
-        // в рамках тестового задания оружие сделано через простой хитскан
-        
+        // base class to orginize modular weapons with composition and strategies
+        // for example, IAttackHandler, IReloadHandler, etc.
+        // it allows to create both melee and range weapons
+        // for test i used simple hit scan implementation
+
         [SerializeField] private RaycastDetectionRule raycastRule = null;
 
         public bool TryAttack()

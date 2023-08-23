@@ -5,12 +5,12 @@ namespace Kaynir.TDSTest.Detection
 {
     public class UIFieldOfView : MonoBehaviour
     {
-        // простой, но недостаточно гибкий способ отображения поля зрения
-        // выбран в рамках тестового задания
+        // not the most flexible way to visualize FOV
+        // chosen just for test
         
-        // в реальном проекте лучше отрисовывать Mesh через код
-        // это позволяет добавлять материалы и шейдеры для красивых эффектов
-        // включая изменение формы при столкновениях с препятствием
+        // in real project it's better to create mesh through code
+        // it allows to add custom materials and shaders for better visuals
+        // it also allows to show FOV collisions when looking on obstacles
 
         private const float MAX_ANGLE = 360f;
 

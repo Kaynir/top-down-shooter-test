@@ -6,8 +6,8 @@ namespace Kaynir.TDSTest.Core
 {
     public class GameOverHandler : MonoBehaviour
     {
-        // проста€ реализаци€ завершени€ игры в рамках тестового задани€
-        // устанавливаетс€ и внедр€етс€ в ProjectContext
+        // simple game over implementation for test
+        // installed in ProjectContext
 
         [SerializeField, Min(0)] private int sceneToReload = 0;
         [SerializeField, Min(0f)] private float reloadDelayInSeconds = 2f;
